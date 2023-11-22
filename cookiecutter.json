@@ -1,0 +1,4 @@
+{
+    "api_name": "My Awesome api",
+    "api_slug": "{{ cookiecutter.api_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}"
+  }
