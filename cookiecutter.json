@@ -1,4 +1,6 @@
 {
     "api_name": "My Awesome api",
-    "api_slug": "{{ cookiecutter.api_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}"
+    "api_slug": "{{ cookiecutter.api_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+    "insurance_name": "My Awesome api",
+    "insurance_slug": "{{ cookiecutter.api_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}"
   }
