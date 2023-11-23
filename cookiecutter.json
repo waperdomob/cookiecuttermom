@@ -1,6 +1,8 @@
 {
-    "api_name": "My Awesome api",
+    "api_name": "Nombre de la app",
     "api_slug": "{{ cookiecutter.api_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
-    "insurance_name": "My Awesome api",
-    "insurance_slug": "{{ cookiecutter.api_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}"
+    "insurance_name": "Nombre del seguro",
+    "insurance_slug": "{{ cookiecutter.insurance_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+    "serializer_integration_name": "serializer_{{ cookiecutter.insurance_slug.lower() }}",
+    "integration_name": "integration_{{ cookiecutter.insurance_slug.lower() }}"
   }
