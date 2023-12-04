@@ -1,0 +1,5 @@
+{
+    "api_name": "Nombre de la app",
+    "api_slug": "{{ cookiecutter.api_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+    "insurance_name": "Nombre del seguro"
+}
